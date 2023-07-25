@@ -1,3 +1,10 @@
+:root {
+  --color-text-main: #434455;
+  --color-background: #fff;
+  --font-heading: "Raleway", sans-serif;
+  --font-text-main: "Roboto", sans-serif;
+}
+
 .body {
   font-family: "Roboto", "Raleway", sans-serif;
   background: #fff;
