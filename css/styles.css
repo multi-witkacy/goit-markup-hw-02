@@ -5,14 +5,42 @@
   --font-text-main: "Roboto", sans-serif;
 }
 
+.big-first-letter {
+  text-transform: uppercase;
+}
+
+.web {
+  width: 44px;
+  color: var(--color-text-in-web-and-btn);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.313;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.studio {
+  width: 71px;
+  color: var(--color-text-in-menu-adress-h3-footer-bg);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.313;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
 .body {
   font-family: "Roboto", "Raleway", sans-serif;
+  border-bottom: 1px solid;
   background: #fff;
   font-style: normal;
   font-weight: 400;
   cursor: pointer;
+  letter-spacing: 0.03em;
 }
 .logo {
+  text-decoration: none;
   color: #4d5ae5;
 }
 .logo:focus {
@@ -20,6 +48,7 @@
 }
 
 .h1 {
+  text-decoration: none;
   color: #fff;
   text-align: center;
 
@@ -33,6 +62,7 @@
 }
 
 .h2 {
+  text-decoration: none;
   color: var(--navyblue, #2e2f42);
   text-align: center;
 
@@ -47,6 +77,7 @@
 }
 
 .h3 {
+  text-decoration: none;
   color: var(--navyblue, #2e2f42);
 
   /* Header 3 */
@@ -59,6 +90,7 @@
 }
 
 .p {
+  text-decoration: none;
   color: var(--slate, #434455);
   text-align: center;
 
@@ -74,6 +106,7 @@
   color: #2e2f42;
 }
 .contacts {
+  text-decoration: none;
   color: var(--slate, #434455);
 
   font-family: Roboto;
@@ -103,4 +136,8 @@
   outline-color: #ffffff;
   background-color: #404bbf;
   cursor: pointer;
+}
+
+.li {
+  list-style: none;
 }
