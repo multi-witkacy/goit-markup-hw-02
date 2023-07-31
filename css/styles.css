@@ -35,7 +35,6 @@
   color: var(--color-main);
   background-color: var(--background-color);
   font-style: normal;
-  font-weight: 400;
   cursor: pointer;
   letter-spacing: 0.03em;
 }
