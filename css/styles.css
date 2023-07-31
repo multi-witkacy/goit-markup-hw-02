@@ -10,20 +10,22 @@
 }
 
 .web {
-  color: var(--color-text-in-web-and-btn);
+  color: var(--iris, #4d5ae5);
   font-family: Raleway;
   font-size: 18px;
+  font-style: normal;
   font-weight: 800;
-  line-height: 1.313;
+  line-height: 21px; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 .studio {
-  color: var(--color-text-in-menu-adress-h3-footer-bg);
+  color: var(--navyblue, #2e2f42);
   font-family: Raleway;
   font-size: 18px;
+  font-style: normal;
   font-weight: 800;
-  line-height: 1.313;
+  line-height: 21px; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -38,8 +40,14 @@
   letter-spacing: 0.03em;
 }
 .logo {
-  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
+  text-decoration: none;
 }
 .logo:focus {
   color: #4d5ae5;
@@ -141,30 +149,30 @@
 }
 
 .nav-link {
-  color: var(--navyblue, #2e2f42);
+  color: #2e2f42;
   /* Body Medium */
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
+  font-style: none;
   font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
+  line-height: 150% 
+  letter-spacing: 0.02em; text-decoration: none;
 }
 
 .contacts-link {
-  color: var(--slate, #434455);
+  color: #434455;
 
   /* Body */
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
+  font-style: none;
   font-weight: 400;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
+  line-height: 150% 
+  letter-spacing: 0.02em;
 }
 
 .first-button {
-  color: var(--white, #fff);
+  color: #ffffff;
 
   /* Button Text */
   font-family: Roboto;
@@ -174,3 +182,9 @@
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
 }
+
+.body-medium {
+  color: #2e2f42;
+  font-weight: 500;  font-size: 16px;
+  line-height: 150% 
+  letter-spacing: 0.02em;}
