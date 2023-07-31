@@ -1,7 +1,7 @@
 :root {
   --font-heading: "Raleway", sans-serif;
   --font-family: "Roboto", sans-serif;
-  --color: #434455;
+  --color-main: #434455;
   --background-color: #ffffff;
 }
 
@@ -11,7 +11,7 @@
 
 .web {
   color: var(--iris, #4d5ae5);
-  font-family: Raleway;
+  font-family: var(--font-family);
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -31,16 +31,16 @@
 }
 
 .body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  font-family: var(--font-family);
+  color: var(--color-main);
+  background-color: var(--background-color);
   font-style: normal;
   font-weight: 400;
   cursor: pointer;
   letter-spacing: 0.03em;
 }
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--font-family);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -87,7 +87,7 @@
   color: var(--navyblue, #2e2f42);
 
   /* Header 3 */
-  font-family: Roboto;
+  font-family: var(--font-family);
   font-size: 20px;
 
   font-weight: 500;
@@ -115,7 +115,7 @@
   text-decoration: none;
   color: #434455;
   font-style: normal;
-  font-family: Roboto;
+  font-family: var(--font-family);
   font-size: 16px;
 
   line-height: 150%;
@@ -153,7 +153,7 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   /* Body Medium */
-  font-family: Roboto;
+  font-family: var(--font-family);
   font-size: 16px;
   font-style: none;
   font-weight: 500;
@@ -171,7 +171,7 @@
   color: #434455;
   letter-spacing: 0.02em;
   /* Body */
-  font-family: Roboto;
+  font-family: var(--font-family);
   font-size: 16px;
   font-style: none;
   font-weight: 400;
@@ -204,7 +204,7 @@
   text-decoration: none;
   color: #ffffff;
   text-align: center;
-  font-family: Roboto;
+  font-family: var(--font-family);
   font-size: 56px;
   font-weight: 700;
   line-height: 107%;
