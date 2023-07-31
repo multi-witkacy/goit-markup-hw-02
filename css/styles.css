@@ -35,9 +35,8 @@
   color: var(--color-main);
   background-color: var(--background-color);
   font-style: normal;
-  cursor: pointer;
-  letter-spacing: 0.03em;
 }
+
 .logo {
   font-family: var(--font-family);
   font-weight: 800;
