@@ -1,8 +1,8 @@
 :root {
-  --color-text-main: #434455;
-  --color-background: #fff;
   --font-heading: "Raleway", sans-serif;
-  --font-text-main: "Roboto", sans-serif;
+  --font-family: "Roboto", sans-serif;
+  --color: #434455;
+  --background-color: #ffffff;
 }
 
 .big-first-letter {
@@ -10,7 +10,6 @@
 }
 
 .web {
-  width: 44px;
   color: var(--color-text-in-web-and-btn);
   font-family: Raleway;
   font-size: 18px;
@@ -20,7 +19,6 @@
   text-transform: uppercase;
 }
 .studio {
-  width: 71px;
   color: var(--color-text-in-menu-adress-h3-footer-bg);
   font-family: Raleway;
   font-size: 18px;
@@ -33,7 +31,7 @@
 .body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background: #ffffff;
+  background-color: #ffffff;
   font-style: normal;
   font-weight: 400;
   cursor: pointer;
