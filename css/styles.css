@@ -229,12 +229,12 @@ ul {
   color: #2e2f42;
   text-align: center;
   /* Header 2 */
-  font-family: Roboto;
+  font-family: var(--font-family);
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: 111.111%;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.045em;
   text-transform: capitalize;
 }
 
@@ -299,7 +299,7 @@ ul {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-family: Roboto;
+  font-family: var(--font-family);
   font-size: 16px;
 }
 
@@ -309,7 +309,7 @@ ul {
 
 .footer-studio {
   color: #f4f4fd;
-  font-family: Raleway;
+  font-family: var(--font-heading);
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
