@@ -5,13 +5,19 @@
   --background-color: #ffffff;
 }
 
+body {
+  font-family: var(--font-family);
+  color: var(--color-main);
+  background-color: var(--background-color);
+}
+
 .big-first-letter {
   text-transform: uppercase;
 }
 
 .web {
   color: #4d5ae5;
-  font-family: var(--font-family);
+  font-family: var(--font-heading);
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -21,24 +27,10 @@
 }
 .studio {
   color: #2e2f42;
-  font-family: var(--font-family);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
-
-.body {
-  font-family: var(--font-family);
-  color: var(--color-main);
-  background-color: var(--background-color);
-  font-style: normal;
 }
 
 .logo {
-  font-family: var(--font-family);
+  font-family: var(--font-heading);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -142,7 +134,7 @@
   cursor: pointer;
 }
 
-.ul {
+ul {
   list-style: none;
 }
 
@@ -219,26 +211,36 @@
 
 .second-h {
   color: #2e2f42;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+  text-align: center;
+  /* Header 2 */
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 111.111%;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
 
 .third-h {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-main);
+  color: #2e2f42;
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.4px;
 }
 
-.descritption {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
+.description {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.32px;
 }
 
 .what {
@@ -252,13 +254,18 @@
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 111.111%;
+  text-transform: capitalize;
 }
 
-.descritption-team {
-  font-size: 16p;
+.description-team {
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-main);
+  text-align: center;
 }
 
 .footer-logo {
