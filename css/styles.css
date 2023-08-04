@@ -124,14 +124,12 @@ body {
   cursor: pointer;
 }
 .filter-button:hover {
-  outline-color: #ffffff;
+  color: #fff;
   background-color: #404bbf;
-  cursor: pointer;
 }
 .filter-button:focus {
-  outline-color: #ffffff;
+  color: #fff;
   background-color: #404bbf;
-  cursor: pointer;
 }
 
 .other-button {
@@ -145,8 +143,8 @@ body {
   line-height: 150%;
   letter-spacing: 0.04em;
   border-radius: 4px;
-  border: 1px solid var(--cornflower, #e7e9fc);
-  background-color: var(--cloud, #f4f4fd);
+  border: 1px solid #e7e9fc;
+  background-color: #f4f4fd;
   cursor: pointer;
 }
 
@@ -182,6 +180,7 @@ ul {
   font-style: none;
   font-weight: 400;
   line-height: 150%;
+  text-decoration: none;
 }
 /* Button Text */
 .first-button {
@@ -316,4 +315,17 @@ ul {
   line-height: 116.667%;
   letter-spacing: 0.034em;
   text-transform: uppercase;
+}
+
+.team-card {
+  color: #2e2f42;
+  text-align: center;
+
+  /* Header 3 */
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.025em;
 }
