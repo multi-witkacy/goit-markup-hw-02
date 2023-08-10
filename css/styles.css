@@ -186,7 +186,7 @@ ul {
 .contacts-link:hover,
 .contacts-link:focus,
 .contacts-link:active {
-  background-color: #404bbf;
+  color: #404bbf;
 }
 /* Button Text */
 .first-button {
