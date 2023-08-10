@@ -182,6 +182,12 @@ ul {
   line-height: 150%;
   text-decoration: none;
 }
+
+.contacts-link:hover,
+.contacts-link:focus,
+.contacts-link:active {
+  background-color: #404bbf;
+}
 /* Button Text */
 .first-button {
   color: #ffffff;
